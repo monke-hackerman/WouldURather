@@ -1,0 +1,45 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; text-align: center;}
+    .div2 { grid-area: 1 / 1 / 2 / 4; text-align: center;}
+    .div3 { grid-area: 3 / 1 / 4 / 4; }
+
+.Rather1 { 
+    background-color: #eb5e28; 
+    text-align: center;
+    position: relative;
+    height: 75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Rather2 { 
+    background-color: #778da9; 
+    text-align: center;
+    position: relative; 
+    height: 75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: #403d39;
+}
+.div1 p{
+    font-size:larger;
+}
+.div1 button{
+    background-color: #fffcf2;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 25%;
+    height: 25%;
+}
+.div2 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    color: #fffcf2;
+    
+}
