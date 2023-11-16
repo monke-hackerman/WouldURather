@@ -1,0 +1,24 @@
+{
+  "name": "wouldurather",
+  "version": "1.0.0",
+  "description": "chaos website with really bad code\r color pallare\r https://coolors.co/palette/fffcf2-ccc5b9-403d39-252422-eb5e28",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monke-hackerman/WouldURather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monke-hackerman/WouldURather/issues"
+  },
+  "homepage": "https://github.com/monke-hackerman/WouldURather#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0"
+  }
+}
